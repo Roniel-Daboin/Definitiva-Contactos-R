@@ -7,8 +7,9 @@
 body{
     background-image: url(../IMG/background.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
     min-height: 100vh;
+    flex-wrap: wrap;
+    padding:0;
 }
 
 h2{
