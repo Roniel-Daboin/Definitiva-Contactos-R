@@ -228,7 +228,7 @@ h2{
 
     .editButton{
         border: none;
-        margin-left: -580px;
+        margin-left: -610px;
         background-color: rgb(48, 140, 238);
         width: 170px;
         height: 35px;
@@ -242,7 +242,7 @@ h2{
     }
     .removeButton{
         border: none;
-        margin-left: -380px;
+        margin-left: -420px;
         margin-top: -35px;
         background-color: rgb(238, 48, 48);
         width: 170px;
@@ -251,8 +251,9 @@ h2{
         display: flex;
         margin-right: -500px;
         text-align: center;
-        padding-left: 60px;
+        padding-left: 50px;
         padding-right: 40px;
+        font-size: 20px;
         
     }
 
