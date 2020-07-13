@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: -60px;
 }
 body{
     background-image: url(../IMG/background.jpg);
@@ -70,6 +71,7 @@ h2{
     box-shadow:black;
     margin-top: -70px;
     
+    
 }
 
 .item{
@@ -79,8 +81,9 @@ h2{
 }
 
 .card{
-    padding-top: 100px;
+    padding-top: px;
     display: flex;
+    padding-bottom: -600px;
     
 }
 
