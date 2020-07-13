@@ -26,6 +26,7 @@ class item{
         let editButton = document.createElement('button');
         editButton.classList.add('editButton');
         editButton.innerHTML = "Editar";
+        
 
         let removeButton = document.createElement('button');
         removeButton.classList.add('removeButton');
@@ -48,6 +49,12 @@ class item{
         remove(item){
             container.removeChild(item);
         }
+}
+
+function change() {
+    var changeValue = document.getElementsByClassName("editButton");
+    if (changeValue.value=="Editar") changeValue.value = "Guardar";
+    else changeValue.value = "Editar";
 }
 
 function checkValueName(){
