@@ -7,6 +7,8 @@
 body{
     background-image: url(../IMG/background.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 h2{
@@ -200,6 +202,7 @@ h2{
 @media screen and (max-width: 480px){
     div .container{
         width: 450px;
+        /* margin-right: -200px; */
     }
     .btn-primary{
     height: 40px;
@@ -222,7 +225,7 @@ h2{
 
     .editButton{
         border: none;
-        margin-left: -400px;
+        margin-left: -380px;
         background-color: rgb(48, 140, 238);
         width: 60px;
         height: 35px;
@@ -232,13 +235,14 @@ h2{
     }
     .removeButton{
         border: none;
-        margin-left: -320px;
+        margin-left: -280px;
         margin-top: -35px;
         background-color: rgb(238, 48, 48);
         width: 60px;
         height: 35px;
         color: #fff;
         display: flex;
+        margin-right: -500px;
         
     }
 
@@ -256,6 +260,15 @@ h2{
         width: 200px;
         font-size: 15px;
     }
+    .imgb{
+        width: 2px;
+        height: 360px;
+        margin-left: 480px;
+        z-index: initial;
+        margin-top: -280px;
+    }
+    
+
     
 
     
@@ -298,6 +311,19 @@ h2{
     }
 
 
+    .input{
+        margin-left: -190px;
+        width: 130px;
+        margin-right: 200px;
+    }
+    .btn-primary{
+        margin-left: -120px ;
+    }
+    .item_input{
+        margin-left: -460px;
+        width: 200px;
+        font-size: 15px;
+    }
     .input{
         margin-left: -190px;
         width: 130px;
